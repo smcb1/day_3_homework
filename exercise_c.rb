@@ -21,7 +21,6 @@ united_kingdom = [
 # Complete these tasks:
 
 # Change the capital of Wales from "Swansea" to "Cardiff".
-united_kingdom[:Wales][:capital] = "Cardiff"
 
 # Create a Hash for Northern Ireland and add it to the united_kingdom array (The capital is Belfast, and the population is 1,811,000).
 # Use a loop to print the names of all the countries in the UK.

@@ -87,3 +87,8 @@ p "Erik's hometown was changed to: #{users["Erik"][:home_town] = "Edinburgh"}"
 
 
 # Add another person to the users hash
+
+new_user = {}
+new_user.each do |key, value|
+  value.merge!({ addedk: 'addedv' })
+end
