@@ -6,7 +6,7 @@ stops = [ "Croy", "Cumbernauld", "Falkirk High", "Linlithgow", "Livingston", "Ha
 # Complete these tasks:
 
 # Add "Edinburgh Waverley" to the end of the array
-stops.push("Edinburgh Waverley")
+stops.push("Edinburgh Waverley") # We could also use the shovel <<
 
 # Add "Glasgow Queen St" to the start of the array
 stops.unshift("Glasgow Queen Street")
@@ -35,6 +35,7 @@ p "By using the .at() method: #{stops.at(3)}"
 p "By using the negative .at() method: #{stops.at(-4)}"
 p "By using the .fetch() method: #{stops.at(3)}"
 p "By using the negative .fetch() method: #{stops.at(-4)}"
+p "By using the slice method: #{stops.slice(3)}"
 p "Is Falkirk High in the array true/false?: #{stops.include?("Falkirk High")}"
 
 # Reverse the positions of the stops in the array

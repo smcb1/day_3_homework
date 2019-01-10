@@ -72,6 +72,7 @@ p "Avril's pet Monty is a: #{users["Avril"][:pets][0][:species]}."
 
 # Get the smallest of Erik's lottery numbers
 p "Erik's smallest lottery number is: #{users["Erik"][:lottery_numbers].sort.first}"
+p "Erik's smallest lottery number is: #{users["Erik"][:lottery_numbers].min}"
 
 # Return an array of Avril's lottery numbers that are even
 avril_lottery_even = users["Avril"][:lottery_numbers]

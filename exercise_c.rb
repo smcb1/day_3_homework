@@ -26,9 +26,11 @@ p united_kingdom[1]
 
 # Create a Hash for Northern Ireland and add it to the united_kingdom array (The capital is Belfast, and the population is 1,811,000).
 
-nothern_ireland={name: "Northern Ireland",
-                populations: 2,
-              capital: "Belfast"}
+nothern_ireland = {
+  name: "Northern Ireland",
+  population: 1811000,
+  capital: "Belfast"
+}
 united_kingdom << (nothern_ireland)
 p united_kingdom
 
