@@ -84,6 +84,20 @@ p "Add 7 to Erik's lottery numbers: #{users["Erik"][:lottery_numbers].unshift(7)
 p "Erik's hometown was changed to: #{users["Erik"][:home_town] = "Edinburgh"}"
 
 # Add a pet dog to Erik called "Fluffy"
-
+users["Erik"][:pets].push(name:"Fluffy", species:"dog")
+p "#{users["Erik"][:pets]}"
 
 # Add another person to the users hash
+
+users["Simon"] = {
+  :twitter => "simonT",
+  :lottery_numbers => [1, 6, 7, 11, 26, 4],
+  :home_town => "Glasgow",
+  :pets => [{
+              :name => "ginger",
+              :species => "cat"
+            }
+          ]
+}
+
+p "#{users["Simon"]}"
