@@ -68,7 +68,7 @@ p "Erik's hometown is: #{users["Erik"][:home_town]}."
 p "Erik's lottery numbers are: #{users["Erik"][:lottery_numbers].sort}"
 
 # Get the type of Avril's pet Monty
-p "Avril's pet Monty is a: #{users["Avril"][:pets]}."
+p "Avril's pet Monty is a: #{users["Avril"][:pets][0][:species]}."
 
 # Get the smallest of Erik's lottery numbers
 p "Erik's smallest lottery number is: #{users["Erik"][:lottery_numbers].sort.first}"
