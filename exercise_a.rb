@@ -33,7 +33,6 @@ p "By index pos: #{stops[3]}"
 p "By negative index pos: #{stops[-4]}"
 p "By using the .at() method: #{stops.at(3)}"
 p "Is Falkirk High in the array true/false?: #{stops.include?("Falkirk High")}"
-######result1 = find_chicken_by_name(chicken_hashes, "Audrey")
 
 # Reverse the positions of the stops in the array
 puts
