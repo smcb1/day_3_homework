@@ -32,6 +32,9 @@ p "Return Falkirk High..."
 p "By index pos: #{stops[3]}"
 p "By negative index pos: #{stops[-4]}"
 p "By using the .at() method: #{stops.at(3)}"
+p "By using the negative .at() method: #{stops.at(-4)}"
+p "By using the .fetch() method: #{stops.at(3)}"
+p "By using the negative .fetch() method: #{stops.at(-4)}"
 p "Is Falkirk High in the array true/false?: #{stops.include?("Falkirk High")}"
 
 # Reverse the positions of the stops in the array
