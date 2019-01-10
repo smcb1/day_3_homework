@@ -91,7 +91,7 @@ p "#{users["Erik"][:pets]}"
 
 users["Simon"] = {
   :twitter => "simonT",
-  :lottery_numbers => [1, 6, 7, 11, 26, 4].sort,
+  :lottery_numbers => [11, 6, 7, 41, 26, 4].sort,
   :home_town => "Glasgow",
   :pets => [{
               :name => "ginger",
