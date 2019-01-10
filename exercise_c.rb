@@ -29,7 +29,7 @@ p united_kingdom[1]
 nothern_ireland={name: "Northern Ireland",
                 populations: 2,
               capital: "Belfast"}
-united_kingdom.push(nothern_ireland)
+united_kingdom << (nothern_ireland)
 p united_kingdom
 
 # Use a loop to print the names of all the countries in the UK.
@@ -41,5 +41,7 @@ end
 # Use a loop to find the total population of the UK.
 total_population = 0
 for country in united_kingdom
-  total_population += country[:population]
+  total_population += country[:population].to_i
 end
+
+p "The total population of the UK is: #{total_population}"
